@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "NEchkAMOcf1NwuDcSVP97FU3kglX1Xwx4gZmHdUc0DqtmQZnLqXyBWRPFDFu83Q0hTWXw3+iKa5F2OOl20tqnQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Lázaro Vanderson\\Desktop\\C# Course Udemy\\CorporationApp\\Clinic\\Manager\\Manager.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Lázaro Vanderson\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\Lázaro Vanderson\\.nuget\\packages\\fluentvalidation\\9.2.0\\fluentvalidation.9.2.0.nupkg.sha512",
+    "C:\\Users\\Lázaro Vanderson\\.nuget\\packages\\fluentvalidation.aspnetcore\\9.2.0\\fluentvalidation.aspnetcore.9.2.0.nupkg.sha512",
+    "C:\\Users\\Lázaro Vanderson\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\9.2.0\\fluentvalidation.dependencyinjectionextensions.9.2.0.nupkg.sha512",
+    "C:\\Users\\Lázaro Vanderson\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Lázaro Vanderson\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

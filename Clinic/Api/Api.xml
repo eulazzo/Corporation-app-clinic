@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Api</name>
+    </assembly>
+    <members>
+        <member name="M:Api.Controllers.ClientsController.Get">
+            <summary> 
+                Return all Customers from Db
+            </summary>
+        </member>
+        <member name="M:Api.Controllers.ClientsController.Get(System.Guid)">
+            <summary>
+                Return a customer by id.
+            </summary>
+            <param name="id" example="123">Id of customer has to be an Int type</param>
+        </member>
+        <member name="M:Api.Controllers.ClientsController.Post(ClCoreShared.ModelViews.Cliente.NovoCliente)">
+            <summary>
+                Insert a new Customer on Db
+            </summary>
+            <param name="novoClient"></param>
+        </member>
+        <member name="M:Api.Controllers.ClientsController.Put(ClCoreShared.ModelViews.Cliente.AlteraCliente)">
+            <summary>
+              Update a customer from Db.
+            </summary>
+            <param name="updatedClient"></param>
+        </member>
+        <member name="M:Api.Controllers.ClientsController.Delete(System.Guid)">
+            <summary>
+            Remove a customer from db.
+            </summary>
+            <param name="id" example="123"></param>
+            <remarks>Delete a customer from database permanently</remarks>
+        </member>
+        <member name="M:Api.Controllers.MedicosController.Get">
+            <summary> 
+                Return all Doctors from Db
+            </summary>
+        </member>
+        <member name="M:Api.Controllers.MedicosController.Get(System.Guid)">
+            <summary>
+                Return a Doctors by given an id.
+            </summary>
+            <param name="Id" example="123-3423-34234-234234">Id of customer has to be an Guid type</param>
+        </member>
+        <member name="M:Api.Controllers.MedicosController.Post(ClCoreShared.ModelViews.Medico.NovoMedico)">
+            <summary>
+                Insert a new Doctor on Db
+            </summary>
+            <param name="Medico"></param>
+        </member>
+        <member name="M:Api.Controllers.MedicosController.Put(ClCoreShared.ModelViews.Medico.AlteraMedico)">
+            <summary>
+              Update a Doctor from Db.
+            </summary>
+            <param name="updatedDoctor"></param>
+        </member>
+        <member name="M:Api.Controllers.MedicosController.Delete(System.Guid)">
+            <summary>
+            Remove a Doctor from db.
+            </summary>
+            <param name="id" example="123"></param>
+            <remarks>Delete a customer from database permanently</remarks>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,111 @@
+2022-11-25 10:37:41.649 -03:00 [INF] WepApi Started!
+2022-11-25 10:40:23.850 -03:00 [INF] WepApi Started!
+2022-11-25 10:43:54.447 -03:00 [INF] WepApi Started!
+2022-11-25 10:45:10.595 -03:00 [INF] WepApi Started!
+2022-11-25 10:46:30.620 -03:00 [INF] WepApi Started!
+2022-11-25 10:47:06.319 -03:00 [INF] WepApi Started!
+2022-11-25 10:47:07.573 -03:00 [INF] Entity Framework Core 6.0.10 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: None
+2022-11-25 10:47:08.017 -03:00 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2022-11-25 10:47:08.091 -03:00 [INF] Executed DbCommand (49ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2022-11-25 10:47:08.102 -03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2022-11-25 10:47:08.105 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2022-11-25 10:47:08.140 -03:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2022-11-25 10:47:08.168 -03:00 [INF] No migrations were applied. The database is already up to date.
+2022-11-25 10:47:08.172 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2022-11-25 10:47:08.200 -03:00 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2022-11-25 10:47:08.473 -03:00 [INF] Now listening on: https://localhost:7073
+2022-11-25 10:47:08.474 -03:00 [INF] Now listening on: http://localhost:5073
+2022-11-25 10:47:08.479 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-25 10:47:08.480 -03:00 [INF] Hosting environment: Development
+2022-11-25 10:47:08.481 -03:00 [INF] Content root path: C:\Users\Lázaro Vanderson\Desktop\C# Course Udemy\CorporationApp\Clinic\Api\
+2022-11-25 10:47:08.896 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7073/index.html - -
+2022-11-25 10:47:09.012 -03:00 [WRN] FluentValidationOperationFilter should be registered in services. Hint: Use registration method 'AddFluentValidationRulesToSwagger'
+2022-11-25 10:47:09.027 -03:00 [WRN] FluentValidationRules should be registered in services. Hint: Use registration method 'AddFluentValidationRulesToSwagger'
+2022-11-25 10:47:09.255 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7073/index.html - - - 200 - text/html;charset=utf-8 364.7161ms
+2022-11-25 10:47:09.299 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7073/_vs/browserLink - -
+2022-11-25 10:47:09.299 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7073/_framework/aspnetcore-browser-refresh.js - -
+2022-11-25 10:47:09.309 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7073/_framework/aspnetcore-browser-refresh.js - - - 200 11976 application/javascript;+charset=utf-8 9.7949ms
+2022-11-25 10:47:09.338 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7073/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 38.6785ms
+2022-11-25 10:47:09.468 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7073/swagger/v1/swagger.json - -
+2022-11-25 10:47:09.693 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7073/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 224.4914ms
+2022-11-25 10:50:05.986 -03:00 [INF] WepApi Started!
+2022-11-25 10:50:07.110 -03:00 [INF] Entity Framework Core 6.0.10 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: None
+2022-11-25 10:50:07.532 -03:00 [INF] Executed DbCommand (24ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2022-11-25 10:50:07.578 -03:00 [INF] Executed DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2022-11-25 10:50:07.584 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2022-11-25 10:50:07.585 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2022-11-25 10:50:07.605 -03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2022-11-25 10:50:07.627 -03:00 [INF] No migrations were applied. The database is already up to date.
+2022-11-25 10:50:07.630 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2022-11-25 10:50:07.647 -03:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2022-11-25 10:50:07.865 -03:00 [INF] Now listening on: https://localhost:7073
+2022-11-25 10:50:07.866 -03:00 [INF] Now listening on: http://localhost:5073
+2022-11-25 10:50:07.869 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-25 10:50:07.870 -03:00 [INF] Hosting environment: Development
+2022-11-25 10:50:07.871 -03:00 [INF] Content root path: C:\Users\Lázaro Vanderson\Desktop\C# Course Udemy\CorporationApp\Clinic\Api\
+2022-11-25 10:50:08.462 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7073/index.html - -
+2022-11-25 10:50:08.562 -03:00 [WRN] FluentValidationOperationFilter should be registered in services. Hint: Use registration method 'AddFluentValidationRulesToSwagger'
+2022-11-25 10:50:08.580 -03:00 [WRN] FluentValidationRules should be registered in services. Hint: Use registration method 'AddFluentValidationRulesToSwagger'
+2022-11-25 10:50:08.832 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7073/index.html - - - 200 - text/html;charset=utf-8 375.5121ms
+2022-11-25 10:50:08.879 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7073/_framework/aspnetcore-browser-refresh.js - -
+2022-11-25 10:50:08.879 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7073/swagger-ui.css - -
+2022-11-25 10:50:08.893 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7073/_vs/browserLink - -
+2022-11-25 10:50:08.900 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7073/_framework/aspnetcore-browser-refresh.js - - - 200 11976 application/javascript;+charset=utf-8 21.4723ms
+2022-11-25 10:50:08.917 -03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-11-25 10:50:08.918 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7073/swagger-ui.css - - - 0 143632 text/css 39.6060ms
+2022-11-25 10:50:08.958 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7073/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 65.0848ms
+2022-11-25 10:50:09.005 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7073/favicon-32x32.png - -
+2022-11-25 10:50:09.007 -03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2022-11-25 10:50:09.008 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7073/favicon-32x32.png - - - 0 628 image/png 3.0489ms
+2022-11-25 10:50:09.103 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7073/swagger/v1/swagger.json - -
+2022-11-25 10:50:09.299 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7073/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 196.1354ms
+2022-11-25 10:53:51.546 -03:00 [INF] WepApi Started!
+2022-11-25 10:53:51.577 -03:00 [INF] WepApi Started!
+2022-11-25 10:54:26.557 -03:00 [INF] WepApi Started!
+2022-11-25 10:54:26.579 -03:00 [INF] WepApi Started!

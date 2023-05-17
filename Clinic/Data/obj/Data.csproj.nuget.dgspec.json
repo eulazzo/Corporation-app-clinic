@@ -1,0 +1,270 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Lázaro Vanderson\\Desktop\\C# Course Udemy\\CorporationApp\\Clinic\\Data\\Data.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Lázaro Vanderson\\Desktop\\C# Course Udemy\\CorporationApp\\Clinic\\ClCoreShared\\ClCoreShared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Lázaro Vanderson\\Desktop\\C# Course Udemy\\CorporationApp\\Clinic\\ClCoreShared\\ClCoreShared.csproj",
+        "projectName": "ClCoreShared",
+        "projectPath": "C:\\Users\\Lázaro Vanderson\\Desktop\\C# Course Udemy\\CorporationApp\\Clinic\\ClCoreShared\\ClCoreShared.csproj",
+        "packagesPath": "C:\\Users\\Lázaro Vanderson\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lázaro Vanderson\\Desktop\\C# Course Udemy\\CorporationApp\\Clinic\\ClCoreShared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Lázaro Vanderson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Lázaro Vanderson\\Desktop\\C# Course Udemy\\CorporationApp\\Clinic\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Lázaro Vanderson\\Desktop\\C# Course Udemy\\CorporationApp\\Clinic\\Core\\Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Lázaro Vanderson\\Desktop\\C# Course Udemy\\CorporationApp\\Clinic\\Core\\Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Lázaro Vanderson\\Desktop\\C# Course Udemy\\CorporationApp\\Clinic\\Core\\Core.csproj",
+        "projectName": "Core",
+        "projectPath": "C:\\Users\\Lázaro Vanderson\\Desktop\\C# Course Udemy\\CorporationApp\\Clinic\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\Lázaro Vanderson\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lázaro Vanderson\\Desktop\\C# Course Udemy\\CorporationApp\\Clinic\\Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Lázaro Vanderson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Lázaro Vanderson\\Desktop\\C# Course Udemy\\CorporationApp\\Clinic\\Data\\Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Lázaro Vanderson\\Desktop\\C# Course Udemy\\CorporationApp\\Clinic\\Data\\Data.csproj",
+        "projectName": "Data",
+        "projectPath": "C:\\Users\\Lázaro Vanderson\\Desktop\\C# Course Udemy\\CorporationApp\\Clinic\\Data\\Data.csproj",
+        "packagesPath": "C:\\Users\\Lázaro Vanderson\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lázaro Vanderson\\Desktop\\C# Course Udemy\\CorporationApp\\Clinic\\Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Lázaro Vanderson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Lázaro Vanderson\\Desktop\\C# Course Udemy\\CorporationApp\\Clinic\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Lázaro Vanderson\\Desktop\\C# Course Udemy\\CorporationApp\\Clinic\\Core\\Core.csproj"
+              },
+              "C:\\Users\\Lázaro Vanderson\\Desktop\\C# Course Udemy\\CorporationApp\\Clinic\\Manager\\Manager.csproj": {
+                "projectPath": "C:\\Users\\Lázaro Vanderson\\Desktop\\C# Course Udemy\\CorporationApp\\Clinic\\Manager\\Manager.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Lázaro Vanderson\\Desktop\\C# Course Udemy\\CorporationApp\\Clinic\\Manager\\Manager.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Lázaro Vanderson\\Desktop\\C# Course Udemy\\CorporationApp\\Clinic\\Manager\\Manager.csproj",
+        "projectName": "Manager",
+        "projectPath": "C:\\Users\\Lázaro Vanderson\\Desktop\\C# Course Udemy\\CorporationApp\\Clinic\\Manager\\Manager.csproj",
+        "packagesPath": "C:\\Users\\Lázaro Vanderson\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lázaro Vanderson\\Desktop\\C# Course Udemy\\CorporationApp\\Clinic\\Manager\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Lázaro Vanderson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Lázaro Vanderson\\Desktop\\C# Course Udemy\\CorporationApp\\Clinic\\ClCoreShared\\ClCoreShared.csproj": {
+                "projectPath": "C:\\Users\\Lázaro Vanderson\\Desktop\\C# Course Udemy\\CorporationApp\\Clinic\\ClCoreShared\\ClCoreShared.csproj"
+              },
+              "C:\\Users\\Lázaro Vanderson\\Desktop\\C# Course Udemy\\CorporationApp\\Clinic\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Lázaro Vanderson\\Desktop\\C# Course Udemy\\CorporationApp\\Clinic\\Core\\Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[9.2.0, )"
+            },
+            "automapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

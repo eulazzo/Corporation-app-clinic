@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ClCoreShared</name>
+    </assembly>
+    <members>
+        <member name="T:ClCoreShared.ModelViews.Cliente.NovoCliente">
+            <summary>
+                Object used to insert a customer into the database
+            </summary>
+        </member>
+        <member name="P:ClCoreShared.ModelViews.Cliente.NovoCliente.Nome">
+            <summary>
+              Customer name
+            </summary>
+            <example>Jhon Doe</example>
+        </member>
+        <member name="P:ClCoreShared.ModelViews.Cliente.NovoCliente.DataNascimento">
+            <summary>
+             Customer Birthday
+            </summary>
+            <example>2000-01-01</example>
+        </member>
+        <member name="P:ClCoreShared.ModelViews.Cliente.NovoCliente.Sexo">
+            <summary>
+            Customer Gender
+            </summary>
+            <example>F</example>
+        </member>
+        <member name="P:ClCoreShared.ModelViews.Cliente.NovoCliente.Documento">
+            <summary>
+             Customer Register : CNH, CPF or RG
+            </summary>
+            <example>12938293829</example>
+        </member>
+        <member name="P:ClCoreShared.ModelViews.Endereco.NovoEndereco.CEP">
+            <example>39390000 </example>
+        </member>
+        <member name="P:ClCoreShared.ModelViews.Endereco.NovoEndereco.Cidade">
+            <example>Bocaiuva </example>
+        </member>
+        <member name="P:ClCoreShared.ModelViews.Endereco.NovoEndereco.Logradouro">
+            <example>Rua A </example>
+        </member>
+        <member name="P:ClCoreShared.ModelViews.Endereco.NovoEndereco.Numero">
+            <example>652 </example>
+        </member>
+        <member name="P:ClCoreShared.ModelViews.Endereco.NovoEndereco.Complemento">
+            <example>Casa </example>
+        </member>
+        <member name="P:ClCoreShared.ModelViews.Telefone.NovoTelefone.Numero">
+            <summary>
+              Customer phone number
+            </summary>
+            <example>389999999999</example>
+        </member>
+    </members>
+</doc>

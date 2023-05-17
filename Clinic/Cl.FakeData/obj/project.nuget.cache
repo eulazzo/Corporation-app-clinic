@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "8uFiXctghLfNCobYNMa1nFbE7M+O6A8YvV6vi/RYxBs6BSMWclRAlrIAJQKVqmLtjrW8USnZr+EPci4+aue9bA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Lázaro Vanderson\\Desktop\\C# Course Udemy\\CorporationApp\\Clinic\\Cl.FakeData\\Cl.FakeData.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Lázaro Vanderson\\.nuget\\packages\\bogus\\34.0.2\\bogus.34.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
